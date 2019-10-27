@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="fcbb0683-2104-4bc7-a07b-859d0b11ef25" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="fcbb0683-2104-4bc7-a07b-859d0b11ef25" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/DNABenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/DNABenchmark.class" afterDir="false" />
+>>>>>>> f62ca25221e5524b2c1c0ba27e17c5e3a4498157
+=======
+>>>>>>> 34e201ad0b674dc81b16a985532a44bebad06e69
+      <change beforePath="$PROJECT_DIR$/src/DNABenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DNABenchmark.java" afterDir="false" />
+    </list>
+>>>>>>> 34744396c439d6bbb51069cb8f2e14e56c676df6
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +111,14 @@
       <option name="presentableId" value="Default" />
       <updated>1571669133251</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test">
+      <created>1572207272369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572207272369</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,5 +133,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
 </project>
