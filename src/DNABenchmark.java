@@ -23,9 +23,9 @@ public class DNABenchmark {
 	 * Change these to change the tests to
 	 * use a different type
 	 */
-//	private static final String strandType = "StringStrand";
+	private static final String strandType = "StringStrand";
 //	private static final String strandType = "LinkStrand";
-	private static final String strandType = "StringBuilderStrand";
+	//private static final String strandType = "StringBuilderStrand";
 	
 	private static final String ENZYME = "gaattc";
 	private static final int TRIALS = 2;
@@ -94,6 +94,7 @@ public class DNABenchmark {
 
 		File file = FileSelector.selectFile(); // ourChooser.getSelectedFile();
 		mySource = dnaFromScanner(new Scanner(file));
+		mySource = mySource + mySource + mySource;
 		System.out.printf("dna length = %,d\n", mySource.length());
 		System.out.println("cutting at enzyme " + ENZYME);
 		System.out.println("-----");
