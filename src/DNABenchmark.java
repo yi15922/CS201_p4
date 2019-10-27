@@ -32,6 +32,7 @@ public class DNABenchmark {
 	
 	private static String mySource;
 
+
 	/**
 	 * Return a string representing the DNA read from the scanner, ignoring any
 	 * characters can't be part of DNA and converting all characters to lower
