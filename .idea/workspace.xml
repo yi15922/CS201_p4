@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fcbb0683-2104-4bc7-a07b-859d0b11ef25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/DNABenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/DNABenchmark.class" afterDir="false" />
+>>>>>>> f62ca25221e5524b2c1c0ba27e17c5e3a4498157
       <change beforePath="$PROJECT_DIR$/src/DNABenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DNABenchmark.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
