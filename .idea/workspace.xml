@@ -2,29 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcbb0683-2104-4bc7-a07b-859d0b11ef25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNA-Linked-Fall19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DNA-Linked-Fall19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/CharDnaIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/CharDnaIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/CodonProfiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/CodonProfiler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/DNABenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/DNABenchmark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/FileSelector$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/FileSelector$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/FileSelector$ChooserFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/FileSelector$ChooserFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/FileSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/FileSelector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/IDnaStrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/IDnaStrand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/META-INF/DNA-Linked-Fall19.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/StringBuilderStrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/StringBuilderStrand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/StringStrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/StringStrand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/TestCodonProfiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/TestCodonProfiler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/TestIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/TestIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/TestStrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/TestStrand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkStrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkStrand.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
