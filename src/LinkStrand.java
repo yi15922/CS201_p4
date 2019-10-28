@@ -41,7 +41,7 @@ public class LinkStrand implements IDnaStrand {
 
     @Override
     public long size() {
-        return 0;
+        return mySize;
     }
 
     /**
@@ -51,16 +51,16 @@ public class LinkStrand implements IDnaStrand {
      */
     @Override
     public void initialize(String source) {
-        mySize = 0;
+
+        mySize = source.length();
         myAppends = 0;
-        myFirst.info = source;
-        myFirst.next = null;
+        myFirst = new Node(source);
         myLast = myFirst;
     }
 
     @Override
     public IDnaStrand getInstance(String source) {
-        return null;
+        return new LinkStrand(source);
     }
 
 
@@ -74,8 +74,9 @@ public class LinkStrand implements IDnaStrand {
     public IDnaStrand append(String dna) {
 
         Node temp = new Node(dna);
-        temp.next = null;
+
         myLast.next = temp;
+
         myLast = temp;
 
         mySize += dna.length();
@@ -91,20 +92,22 @@ public class LinkStrand implements IDnaStrand {
      */
     @Override
     public IDnaStrand reverse() {
-        return null;
-    }
 
-        /*
         LinkStrand ret = new LinkStrand();
 
         Node first = new Node(myFirst.info); //first node of the new list
         Node list = myFirst; //iterating node of the original list
         StringBuilder temp;
+
+        temp = new StringBuilder(first.info);
+        temp.reverse();
+        first.info = temp.toString();
+
         while(list != null){
             //Reverses the string (i.e. the info of first)
-            temp = new StringBuilder(first.info);
+            temp = new StringBuilder(list.info);
             temp.reverse();
-            first.info = temp.toString();
+            list.info = temp.toString();
             //Adds list to the beginning of the new list
             Node newNode = new Node(list.info);
             newNode.next = first;
@@ -119,14 +122,12 @@ public class LinkStrand implements IDnaStrand {
         }
 
 
-
-
         return ret;
-    }*/
+    }
 
     @Override
     public int getAppendCount() {
-        return 0;
+        return myAppends;
     }
 
     @Override
@@ -134,10 +135,12 @@ public class LinkStrand implements IDnaStrand {
         StringBuilder ret = new StringBuilder();
 
         Node temp = myFirst;
-        while (myFirst.next != null) {
+        while (temp.next != null) {
             ret.append(temp.info);
             temp = temp.next;
         }
+        ret.append(temp.info);
+
         return ret.toString();
 
     }
