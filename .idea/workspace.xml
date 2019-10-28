@@ -45,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DNABenchmark">
+  <component name="RunManager" selected="JUnit.TestStrand">
     <configuration name="DNABenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DNABenchmark" />
       <module name="DNA-Linked-Fall19" />
@@ -82,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DNABenchmark" />
         <item itemvalue="JUnit.TestStrand" />
+        <item itemvalue="Application.DNABenchmark" />
         <item itemvalue="JUnit.TestIterator" />
         <item itemvalue="JUnit.TestCodonProfiler" />
       </list>
