@@ -53,7 +53,6 @@ public class LinkStrand implements IDnaStrand {
     public void initialize(String source) {
         mySize = 0;
         myAppends = 0;
-
         myFirst.info = source;
         myFirst.next = null;
         myLast = myFirst;
@@ -85,10 +84,45 @@ public class LinkStrand implements IDnaStrand {
         return this;
     }
 
+    /**
+     * reverses the entire strand
+     * @return a new IDnaStrand that is the
+     * reverse of this
+     */
     @Override
     public IDnaStrand reverse() {
         return null;
     }
+
+        /*
+        LinkStrand ret = new LinkStrand();
+
+        Node first = new Node(myFirst.info); //first node of the new list
+        Node list = myFirst; //iterating node of the original list
+        StringBuilder temp;
+        while(list != null){
+            //Reverses the string (i.e. the info of first)
+            temp = new StringBuilder(first.info);
+            temp.reverse();
+            first.info = temp.toString();
+            //Adds list to the beginning of the new list
+            Node newNode = new Node(list.info);
+            newNode.next = first;
+            first = newNode;
+            list = list.next;
+        }
+
+
+        while (first.next != null) {
+            ret.append(first.info);
+            first = first.next;
+        }
+
+
+
+
+        return ret;
+    }*/
 
     @Override
     public int getAppendCount() {
