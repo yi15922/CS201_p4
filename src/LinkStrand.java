@@ -164,7 +164,7 @@ public class LinkStrand implements IDnaStrand {
         count = myIndex;
         dex = myLocalIndex;
         list = myCurrent;
-        while (count != index) {
+        while (count != index && list != null) {
             count++;
             dex++;
             if (dex >= list.info.length()) {
