@@ -18,12 +18,12 @@ public class LinkStrand implements IDnaStrand {
     private Node myFirst, myLast;
     private long mySize;
     private int myAppends;
-    int count;
-    int dex;
-    Node list;
-    int myIndex;
-    int myLocalIndex;
-    Node myCurrent;
+    private int count;
+    private int dex;
+    private Node list;
+    private int myIndex;
+    private int myLocalIndex;
+    private Node myCurrent;
 
 
     /**
@@ -112,9 +112,9 @@ public class LinkStrand implements IDnaStrand {
         Node list = myFirst; //iterating node of the original list
         StringBuilder temp;
 
-        temp = new StringBuilder(first.info);
-        temp.reverse();
-        first.info = temp.toString();
+        //temp = new StringBuilder(first.info);
+        //temp.reverse();
+        //first.info = temp.toString();
 
         while(list != null){
             //Reverses the string (i.e. the info of first)

@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fcbb0683-2104-4bc7-a07b-859d0b11ef25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/DNABenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNA-Linked-Fall19/DNABenchmark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodonProfiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodonProfiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DNABenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DNABenchmark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkStrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkStrand.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestCodonProfiler">
+  <component name="RunManager" selected="JUnit.TestStrand.testReverse">
     <configuration name="DNABenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DNABenchmark" />
       <module name="DNA-Linked-Fall19" />
@@ -83,11 +80,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStrand.testInitialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStrand.testReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DNA-Linked-Fall19" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestStrand" />
-      <option name="METHOD_NAME" value="testInitialize" />
+      <option name="METHOD_NAME" value="testReverse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestStrand.testReverse" />
         <item itemvalue="JUnit.TestCodonProfiler" />
         <item itemvalue="JUnit.TestIterator" />
         <item itemvalue="Application.DNABenchmark" />
         <item itemvalue="JUnit.TestStrand" />
-        <item itemvalue="JUnit.TestStrand.testInitialize" />
       </list>
     </recent_temporary>
   </component>
