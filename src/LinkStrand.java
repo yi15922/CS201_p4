@@ -18,6 +18,12 @@ public class LinkStrand implements IDnaStrand {
     private Node myFirst, myLast;
     private long mySize;
     private int myAppends;
+    int count;
+    int dex;
+    Node list;
+    int myIndex;
+    int myLocalIndex;
+    Node myCurrent;
 
 
     /**
@@ -56,6 +62,13 @@ public class LinkStrand implements IDnaStrand {
         myAppends = 0;
         myFirst = new Node(source);
         myLast = myFirst;
+        count = 0;
+        dex = 0;
+        list = myFirst;
+        myIndex = 0;
+        myLocalIndex = 0;
+        myCurrent = myFirst;
+
     }
 
     @Override
@@ -147,6 +160,21 @@ public class LinkStrand implements IDnaStrand {
 
     @Override
     public char charAt(int index) {
-        return 0;
+        count = myIndex;
+        dex = myLocalIndex;
+        list = myCurrent;
+        while (count != index) {
+            count++;
+            dex++;
+            if (dex >= list.info.length()) {
+                dex = 0;
+                list = list.next;
+            }
+        }
+        myCurrent = list;
+        myIndex = index;
+        myLocalIndex = dex;
+        return list.info.charAt(dex);
+
     }
 }
