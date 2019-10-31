@@ -121,9 +121,9 @@ public class LinkStrand implements IDnaStrand {
             //Reverses the string (i.e. the info of first)
             temp = new StringBuilder(list.info);
             temp.reverse();
-            list.info = temp.toString();
+            //list.info = temp.toString();
             //Adds list to the beginning of the new list
-            Node newNode = new Node(list.info);
+            Node newNode = new Node(temp.toString());
             newNode.next = first;
             first = newNode;
             list = list.next;
