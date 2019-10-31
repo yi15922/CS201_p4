@@ -109,7 +109,8 @@ public class LinkStrand implements IDnaStrand {
         LinkStrand ret = new LinkStrand();
 
         Node first = new Node(myFirst.info); //first node of the new list
-        Node list = myFirst; //iterating node of the original list
+        Node list = new Node(myFirst.info); //iterating node of the original list
+        list.next = myFirst.next;
         StringBuilder temp;
 
         //temp = new StringBuilder(first.info);
