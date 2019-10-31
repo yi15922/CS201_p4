@@ -161,9 +161,9 @@ public class LinkStrand implements IDnaStrand {
 
     @Override
     public char charAt(int index) {
-        count = myIndex;
+        /*count = myIndex;
         dex = myLocalIndex;
-        list = myCurrent;
+        list = myCurrent;*/
         while (count != index) {
             count++;
             dex++;
@@ -176,7 +176,8 @@ public class LinkStrand implements IDnaStrand {
 
         myIndex = index;
         myLocalIndex = dex;
-        return myCurrent.info.charAt(dex);
+        //return myCurrent.info.charAt(dex);
+        return list.info.charAt(dex);
 
     }
 }
