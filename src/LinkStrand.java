@@ -169,10 +169,10 @@ public class LinkStrand implements IDnaStrand {
             dex++;
             if (dex >= list.info.length()) {
                 dex = 0;
-                myCurrent = list;
                 list = list.next;
             }
         }
+        myCurrent = list;
         myIndex = index;
         myLocalIndex = dex;
         return myCurrent.info.charAt(dex);
