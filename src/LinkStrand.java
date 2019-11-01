@@ -157,8 +157,12 @@ public class LinkStrand implements IDnaStrand {
     public char charAt(int index) {
         //int count = myIndex;
         //int dex = myLocalIndex;
-        Node list = myCurrent;
+        //Node list = myCurrent;
+        if (index >= mySize) {
+            throw new IndexOutOfBoundsException("Out of bounds");
+        }
         while (myIndex != index) {
+
             myIndex++;
             myLocalIndex++;
             if (myLocalIndex >= myCurrent.info.length()) {
