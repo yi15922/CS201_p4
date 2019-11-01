@@ -161,7 +161,7 @@ public class LinkStrand implements IDnaStrand {
         if (index >= mySize) {
             throw new IndexOutOfBoundsException("Out of bounds");
         }
-        while (myIndex != index) {
+        while (myIndex != index && myCurrent.next != null) {
 
             myIndex++;
             myLocalIndex++;
