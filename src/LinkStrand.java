@@ -133,11 +133,19 @@ public class LinkStrand implements IDnaStrand {
         return ret;
     }
 
+    /**
+     * gets the total number of appends called on this object
+     * @return an integer that is the total number of appends
+     */
     @Override
     public int getAppendCount() {
         return myAppends;
     }
 
+    /**
+     * returns a string representation of the LinkStrand
+     * @return a string representation of the LinkStrand
+     */
     @Override
     public String toString() {
         StringBuilder ret = new StringBuilder();
@@ -153,6 +161,11 @@ public class LinkStrand implements IDnaStrand {
 
     }
 
+    /**
+     * Gets the character at the specified index in the LinkStrand
+     * @param index specifies which character will be returned
+     * @return a char at the specified index
+     */
     @Override
     public char charAt(int index) {
 
@@ -173,7 +186,6 @@ public class LinkStrand implements IDnaStrand {
             //System.out.println(myIndex + " " + index);
             if (myLocalIndex >= myCurrent.info.length()) {
                 myLocalIndex = 0;
-                //preLast = myCurrent;
                 myCurrent = myCurrent.next;
             }
         }
